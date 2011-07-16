@@ -1,0 +1,193 @@
+html, body, h1, h2, h3, h4 {
+	margin: 0;
+	padding: 0;
+}
+h1 img {
+	display: block;
+}
+img {
+	border: 0;
+}
+a {
+	color: #990000;
+	font-weight: bold;
+	text-decoration: none;
+}
+a:hover {
+	color: #FFA405;
+	text-decoration: underline;
+}
+.left {
+	float: left;
+}
+.right {
+	float: right;
+}
+.more {
+	text-align: right;
+}
+.clear {
+	clear: both;
+}
+
+body {
+  background: #000;
+	text-align: center;
+	font: 11px arial, sans-serif;
+	color: #312F1A;
+}
+
+/** layout **/
+#wrapper {
+	text-align: left;
+	margin: 20px auto;
+	width: 714px;
+  position: relative;
+}
+
+#header {
+  background: top center url(http://i522.photobucket.com/albums/w349/bugits87/Baby%20nako%20site/logo.jpg) no-repeat;
+  padding-top: 51px;
+  width: 252px;
+  position: relative;
+}
+
+/** Header **/
+h1 {
+  color: #FDE7C2;
+  background: #991111;
+  border: 2px solid #C4B888;
+  padding: 8px;
+  text-align: center;
+  font: 25px "Times new roman", sans-serif;
+  font-style: italic;
+  font-weight: normal;
+  margin: 0 0 2px 21px;
+}
+
+#search {
+  width: 148px;
+  background: #E8E7DA url(http://i522.photobucket.com/albums/w349/bugits87/Baby%20nako%20site/search_top.jpg) no-repeat;
+  text-align: center;
+  position: absolute;
+  bottom: -1px;
+  left: 558px;
+  padding: 6px 0;
+}
+#search .text {
+  width: 63px;
+}
+
+/** Body **/
+#body {
+  position: relative;
+  width: 100%;
+}
+
+#nav {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 252px;
+  padding-top: 292px;
+  background: url(http://i522.photobucket.com/albums/w349/bugits87/Baby%20nako%20site/pic_1_copy.jpg) no-repeat;
+}
+#nav ul {
+  background: bottom right #991111 url(http://i522.photobucket.com/albums/w349/bugits87/Baby%20nako%20site/nav_bot.jpg) no-repeat;
+  margin: 0 7px 0 28px;
+  padding: 5px 20px 15px 20px;
+}
+#nav li {
+  list-style: none;
+  background: bottom left url(http://i522.photobucket.com/albums/w349/bugits87/Baby%20nako%20site/dots.jpg) repeat-x;
+}
+#nav a {
+  color: #FDE7C2;
+  font: 18px "times new roman", serif;
+  font-style: italic;
+  background: #991111;
+  padding-right: 8px;
+}
+
+/** content **/
+
+#content {
+  background: #E8E7DA bottom right url(http://i522.photobucket.com/albums/w349/bugits87/Baby%20nako%20site/body_bottom_right.jpg) no-repeat;
+  width: 462px;
+  margin-left: 254px;
+  min-height: 530px;
+}
+
+#content .main, #content .main2 {
+  float: right;
+  width: 350px;
+  margin-top: 14px;
+  padding-right: 28px;
+}
+
+#content .main {
+  padding-bottom: 1em;
+  border-bottom: 1px solid #D6D3BA;
+}
+
+#content .main p, #content .main2 p {
+  margin: 0em 1em 0 0;
+}
+#content .main2 .right {
+  margin-left: 18px;
+}
+#content .main .clear, #content .main2 .clear {
+  height: 20px;
+  margin-bottom: -10px;
+}
+
+#beauty {
+  float: right;
+  width: 134px;
+  border-left: 1px solid #D6D3BA;
+  padding: 12px;
+  background: top right url(http://i522.photobucket.com/albums/w349/bugits87/Baby%20nako%20site/bogy_top_right.jpg) no-repeat;
+}
+#beauty span {
+  float: left;
+  width: 12px;
+  font-size: 9px;
+  clear: both;
+  margin-top: 3px;
+}
+#beauty p {
+  float: left;
+  width: 110px;
+  margin: 0 0 0.6em 0;
+  padding: 0 0 0 1em;
+  line-height: 1.3;
+}
+#beauty .clear {
+  height: 10px;
+}
+
+h2 {
+  font: italic 22px "Times new roman", serif;
+  color: #991111;
+  margin: 0 0 0.5em 0;
+}
+
+/** Footer **/
+
+#footer {
+  color: #E8E7DA;
+  margin: 2px 0 0 275px;
+}
+
+#privacy {
+  position: absolute;
+  right: 8px;
+  width: 148px;
+  padding: 4px 0;
+  text-align: center;
+  background: #E8E7DA bottom left url(http://i522.photobucket.com/albums/w349/bugits87/Baby%20nako%20site/footer_tab.jpg) no-repeat;
+}
+#privacy a {
+  color: #000;
+  font-weight: normal;
+}
